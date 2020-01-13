@@ -33,13 +33,13 @@ public class GameBoardTest {
         GameBoard gameBoard = GameBoard.Instance;
         gameBoard.init(1, 1, 5, 6);
         Vector2f size = gameBoard.getSize();
-        assertEquals(5f, size.getX(), 0.0001f);
-        assertEquals(6f, size.getY(), 0.0001f);
+        assertEquals(4f, size.getX(), 0.0001f);
+        assertEquals(5f, size.getY(), 0.0001f);
 
         gameBoard.init(3, 2, 5, 6);
         size = gameBoard.getSize();
-        assertEquals(1f, size.getX(), 0.0001f);
-        assertEquals(3f, size.getY(), 0.0001f);
+        assertEquals(0f, size.getX(), 0.0001f);
+        assertEquals(2f, size.getY(), 0.0001f);
     }
 
     @Test
