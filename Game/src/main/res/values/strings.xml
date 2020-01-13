@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Snek</string>
+    <string name="up">up</string>
+    <string name="left">left</string>
+    <string name="right">right</string>
+    <string name="down">down</string>
+    <string name="score">Score:</string>
+    <string name="score_zero">0</string>
+</resources>

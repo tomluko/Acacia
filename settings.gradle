@@ -1,0 +1,11 @@
+include ':Game'
+rootProject.name='Acacia'
+include '../modules for android/Entities'
+findProject(':../modules for android/Entities')?.name = 'Entities'
+include '../modules for android/Properties'
+findProject(':../modules for android/Properties')?.name = 'Properties'
+include '../modules for android/Math'
+findProject(':../modules for android/Math')?.name = 'Math'
+include '../modules for android/Loop'
+findProject(':../modules for android/Loop')?.name = 'Loop'
+
