@@ -4,11 +4,8 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
         <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleJvm" value="#JAVA_INTERNAL" />
@@ -16,11 +13,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Game" />
-            <option value="$PROJECT_DIR$/../modules for android/Entities" />
-            <option value="$PROJECT_DIR$/../modules for android/Math" />
-            <option value="$PROJECT_DIR$/../modules for android/Properties" />
+            <option value="$PROJECT_DIR$/../modules for android games/Entities" />
+            <option value="$PROJECT_DIR$/../modules for android games/Loop" />
+            <option value="$PROJECT_DIR$/../modules for android games/Math" />
+            <option value="$PROJECT_DIR$/../modules for android games/Properties" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
